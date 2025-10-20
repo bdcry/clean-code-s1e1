@@ -76,7 +76,12 @@
   color: #333;
 }
 
-.task,.checkbox,.btn,.edit, .delete, .add {
+.task,
+.checkbox,
+.btn,
+.edit,
+.delete,
+.add {
   outline: none;
 }
 .btn,
@@ -117,7 +122,7 @@
 .delete .icon {
   height: 2em;
   transform: rotateZ(45deg);
-  transition : transform 200ms ease-in;
+  transition: transform 200ms ease-in;
 }
 .delete .icon:hover {
   transform: rotateZ(0);
