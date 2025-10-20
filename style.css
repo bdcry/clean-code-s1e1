@@ -76,12 +76,7 @@
   color: #333;
 }
 
-.task,
-.checkbox,
-.btn,
-.edit,
-.delete,
-.add {
+.task,.checkbox,.btn,.edit, .delete, .add {
   outline: none;
 }
 .btn,
@@ -129,8 +124,8 @@
 }
 
 #completed-tasks .task {
-  text-decoration: line-through
-  color : #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 .list__item .task[type='text'] {
