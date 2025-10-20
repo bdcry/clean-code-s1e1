@@ -11,11 +11,17 @@
   display: block;
   text-align: right;
 }
-.hero img { width: 100%; }
-.hero .more-inf { font-family: fantasy, cursive; }
+.hero img {
+  width: 100%;
+}
+.hero .more-inf {
+  font-family: fantasy, cursive;
+}
 
-@media (max-width:768px) {
-  .hero { text-align: center; }
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+  }
 }
 
 .centered-main-page-element {
@@ -30,11 +36,18 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper { display: flex; }
+.task-row-wrapper {
+  display: flex;
+}
 
-.list { margin: 0; padding: 0; }
+.list {
+  margin: 0;
+  padding: 0;
+}
 
-.list__item { list-style: none; }
+.list__item {
+  list-style: none;
+}
 
 .form-label,
 .section-title {
@@ -47,7 +60,7 @@
   text-transform: uppercase;
 }
 
-.task[type="text"] {
+.task[type='text'] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -59,7 +72,9 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
-.task[type="text"]:focus { color: #333; }
+.task[type='text']:focus {
+  color: #333;
+}
 
 /* инпуты/кнопки — вместо 'input, button' */
 .task,
@@ -67,7 +82,9 @@
 .btn,
 .edit,
 .delete,
-.add { outline: none; }
+.add {
+  outline: none;
+}
 .btn,
 .edit,
 .delete,
@@ -83,33 +100,44 @@
 .btn:hover,
 .edit:hover,
 .delete:hover,
-.add:hover { color: #3a3a3a; }
+.add:hover {
+  color: #3a3a3a;
+}
 
-
-.list__item > * { vertical-align: middle; }
-.list__item > .checkbox { margin: 0 10px; }
-.list__item > .task { 
+.list__item > * {
+  vertical-align: middle;
+}
+.list__item > .checkbox {
+  margin: 0 10px;
+}
+.list__item > .task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.list__item > .task[type="text"] { width: 226px; }
+.list__item > .task[type='text'] {
+  width: 226px;
+}
 
 .delete .icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete .icon:hover { transform: rotateZ(0); }
+.delete .icon:hover {
+  transform: rotateZ(0);
+}
 
 #completed-tasks .task {
   text-decoration: line-through;
   color: #888;
 }
 
-.list__item .task[type="text"] { display: none; }
-.list__item.editMode .task[type="text"] {
+.list__item .task[type='text'] {
+  display: none;
+}
+.list__item.editMode .task[type='text'] {
   display: inline-block;
   width: 224px;
 }
