@@ -76,7 +76,6 @@
   color: #333;
 }
 
-/* инпуты/кнопки — вместо 'input, button' */
 .task,
 .checkbox,
 .btn,
@@ -123,7 +122,7 @@
 .delete .icon {
   height: 2em;
   transform: rotateZ(45deg);
-  transition: transform 200ms ease-in;
+  transition : transform 200ms ease-in;
 }
 .delete .icon:hover {
   transform: rotateZ(0);
@@ -131,7 +130,7 @@
 
 #completed-tasks .task {
   text-decoration: line-through;
-  color: #888;
+  color : #888;
 }
 
 .list__item .task[type='text'] {
